@@ -1,0 +1,22 @@
+.bg-custom-gradient{
+    background: linear-gradient( #ffeee6,white,#ffe6f2, #e6ccff);
+}
+
+.custom-border{
+    border-radius: 1.3rem!important;
+}
+
+.album-image {
+    padding: 30px;
+    max-width: 200px;
+    min-height:200px;
+    border-radius: 40px;
+}
+
+.hello{
+    border-radius: 1.3rem!important;
+}
+
+.iconborder{
+    border-radius: 1.0rem!important;
+}

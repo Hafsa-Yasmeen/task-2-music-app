@@ -1,0 +1,18 @@
+// custom variable
+$primary: #c29938;
+$light: #fbf5e5;
+
+@import "/Users/hafsayasmeen/Desktop/Song-app/node_modules/bootstrap/scss/_functions.scss";
+@import "/Users/hafsayasmeen/Desktop/Song-app/node_modules/bootstrap/scss/_variables.scss";
+
+$custom-theme-colors: (
+   "altlight": #f2ebfa,
+   "altdark": #522192,
+   "celestial": linear-gradient(to right, #be6b85, #1d2671)
+
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+// import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
